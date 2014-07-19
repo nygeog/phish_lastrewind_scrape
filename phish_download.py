@@ -3,7 +3,7 @@ import glob
 import fnmatch 
 import urllib
 ####################################################
-# SAVE http://lastrewind.com/wp-content/uploads/2014/07/ as HTML page somewhere
+# SAVE MOST RECENT http://lastrewind.com/wp-content/uploads/2014/07/ as HTML page somewhere
 ####################################################
 htmlFile = '/Users/danielmsheehan/GitHub/phish_lastrewind_scrape/lastrewind2.html' #Save the HTML file of last rewind's word press content pages http://lastrewind.com/wp-content/uploads/2014/07/ and then pull it in
 ####################################################
