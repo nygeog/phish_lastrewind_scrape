@@ -14,7 +14,7 @@ mp3SaveLocation = '/Users/danielmsheehan/Desktop/phish/' #this is where you want
 # MODIFY LIST OF DATES
 ####################################################
 #YYMMDD This is not a 'list' as it actually doesn't loop through correctly if it has two items, gotta fix it but, meh.
-listofDates = ['140718']
+listofDates = ['140719']
 
 ####################################################
 # Shouldn't have to modify anything below here
@@ -45,3 +45,10 @@ for i in finalListofTunes: #This grabs and downloads the content
 	urllib.urlretrieve(mp3Address, mp3SaveLocation+i)
 	print i + ' is downloading........'
 	time.sleep(15) # delays for 15 seconds, not trying to bring down the web site.
+
+
+#TO DO 
+
+#1 add zip and copy to dropbox ZipFile
+#2 add to iTunes
+#3 timer delay morning start
