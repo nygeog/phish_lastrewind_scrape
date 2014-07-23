@@ -14,7 +14,7 @@ mp3SaveLocation = '/Users/danielmsheehan/Desktop/phish/' #this is where you want
 # MODIFY LIST OF DATES
 ####################################################
 #YYMMDD This is not a 'list' as it actually doesn't loop through correctly if it has two items, gotta fix it but, meh.
-listofDates = ['140719']
+listofDates = ['140720']
 
 ####################################################
 # Shouldn't have to modify anything below here
