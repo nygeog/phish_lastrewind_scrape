@@ -5,7 +5,7 @@ import urllib
 ####################################################
 # SAVE MOST RECENT http://lastrewind.com/wp-content/uploads/2014/07/ as HTML page somewhere
 ####################################################
-htmlFile = '/Users/danielmsheehan/GitHub/phish_lastrewind_scrape/lastrewind2.html' #Save the HTML file of last rewind's word press content pages http://lastrewind.com/wp-content/uploads/2014/07/ and then pull it in
+htmlFile = '/Users/danielmsheehan/GitHub/phish_lastrewind_scrape/lastrewind.html' #Save the HTML file of last rewind's word press content pages http://lastrewind.com/wp-content/uploads/2014/07/ and then pull it in
 ####################################################
 # MODIFY FOLDER LOCATION OF WHERE YOU WANNA SAVE MP3's
 ####################################################
@@ -14,7 +14,7 @@ mp3SaveLocation = '/Users/danielmsheehan/Desktop/phish/' #this is where you want
 # MODIFY LIST OF DATES
 ####################################################
 #YYMMDD This is not a 'list' as it actually doesn't loop through correctly if it has two items, gotta fix it but, meh.
-listofDates = ['140720']
+listofDates = ['140726']
 
 ####################################################
 # Shouldn't have to modify anything below here
